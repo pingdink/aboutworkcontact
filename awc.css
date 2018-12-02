@@ -123,3 +123,18 @@ body, h1 {
 }
 
 //------------------
+#item2 {
+    // background-color: lightblue;
+    height: 80vh;
+}
+
+.heading h1{
+   top: 5%;
+   // height: 10vh;
+}
+
+#item2 .heading h1 {
+   top: 1%;
+   height: 15%;
+      border-bottom: 1px solid lightblue;
+}
