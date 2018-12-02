@@ -138,3 +138,20 @@ body, h1 {
    height: 15%;
       border-bottom: 1px solid lightblue;
 }
+
+//------------------
+#item3 {
+    // background-color: lightblue;
+    height: 80vh;
+}
+
+.heading h1{
+   top: 5%;
+   // height: 10vh;
+}
+
+#item3 .heading h1 {
+   top: 1%;
+   height: 15%;
+      border-bottom: 1px solid lightblue;
+}
