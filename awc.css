@@ -102,3 +102,24 @@ body, h1 {
     color: lightblue;
     letter-spacing: 0.15em;
 }
+
+//----------------for about click animation slide
+
+
+#item1 {
+    // background-color: lightblue;
+    height: 80vh;
+}
+
+.heading h1{
+   top: 5%;
+   // height: 10vh;
+}
+
+#item1 .heading h1 {
+   top: 1%;
+   height: 15%;
+      border-bottom: 1px solid antiquewhite;
+}
+
+//------------------
