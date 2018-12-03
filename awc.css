@@ -62,7 +62,7 @@ body, h1 {
     letter-spacing: 0.15em;
 }
 #item3 {
-    background-color: aliceblue     
+    background-color: aliceblue
 }
 
 #item3 .heading h1:hover {
@@ -95,7 +95,7 @@ body, h1 {
     letter-spacing: 0.15em;
 }
 #item3 {
-    background-color: aliceblue     
+    background-color: aliceblue
 }
 
 #item3 .heading h1:hover {
@@ -103,55 +103,21 @@ body, h1 {
     letter-spacing: 0.15em;
 }
 
-//----------------for about click animation slide
 
 
-#item1 {
-    // background-color: lightblue;
+/* //------------------ */
+.nav-slide { /* focal item heigh */
+/*     background-color: lightblue; */
     height: 80vh;
 }
 
-.heading h1{
-   top: 5%;
-   // height: 10vh;
+.nav-slide-h1 { /* gneral h1 height */
+   top: 5% !important;
+/*    // height: 10vh; */
 }
 
-#item1 .heading h1 {
-   top: 1%;
-   height: 15%;
-      border-bottom: 1px solid antiquewhite;
-}
-
-//------------------
-#item2 {
-    // background-color: lightblue;
-    height: 80vh;
-}
-
-.heading h1{
-   top: 5%;
-   // height: 10vh;
-}
-
-#item2 .heading h1 {
-   top: 1%;
-   height: 15%;
-      border-bottom: 1px solid lightblue;
-}
-
-//------------------
-#item3 {
-    // background-color: lightblue;
-    height: 80vh;
-}
-
-.heading h1{
-   top: 5%;
-   // height: 10vh;
-}
-
-#item3 .heading h1 {
-   top: 1%;
-   height: 15%;
-      border-bottom: 1px solid lightblue;
+.nav-slide-item-h1  { /* focal h1 height */
+   top: 1% !important;;
+   height: 15% !important;
+      border-bottom: 1px solid lightblue ;
 }
