@@ -10,7 +10,6 @@ var rows = $(".item");
 
 // each div has a click function
 $("#item1 h1").click(function () {
-    rows.get(0).css("height", "50vh");
 });
 
 $(".item").click(function () {
@@ -23,9 +22,12 @@ $(".item").click(function () {
     if($(this).attr("id") === "item1") {
         $("#item1 .heading h1").css("border-bottom", "1px solid antiquewhite");
         console.log("trig");
-    }
-    console.log($(this).attr("id"));
 
+        //need to set the heights of the bottom rows
+        // jquery obj using vanilla js
+        rows.get(1).classList.add("home-height-fix");
+        rows.get(2).classList.add("home-height-fix");
+    }
 });
 /*
 , function() {

@@ -108,7 +108,7 @@ body, h1 {
 /* //------------------ */
 .nav-slide { /* focal item heigh */
 /*     background-color: lightblue; */
-    height: 80vh;
+    height: 74vh;
 }
 
 .nav-slide-h1 { /* gneral h1 height */
@@ -117,7 +117,12 @@ body, h1 {
 }
 
 .nav-slide-item-h1  { /* focal h1 height */
-   top: 1% !important;;
+   top: 0% !important;;
    height: 15% !important;
       border-bottom: 1px solid lightblue ;
 }
+
+.home-height-fix {
+    height: 13vh;
+}
+
